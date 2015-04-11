@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.witt.mybills"
+          android:versionCode="1"
+          android:versionName="1.0"
+        >
+
+    <uses-sdk android:minSdkVersion="17"/>
+    <application
+            android:label="@string/title_main"
+            android:icon="@drawable/icon"
+            >
+
+        <activity
+                android:name="MainActivity"
+                android:label="@string/title_main"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewCheckActivity"/>
+        <activity android:name=".OutCheckActivity"/>
+        <activity android:name=".DetailCheckActivity"/>
+        <activity android:name=".StatusCheck_Activity"/>
+
+
+    </application>
+</manifest>

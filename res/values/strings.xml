@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyBills</string>
+    <!--主页显示的内容 -->
+    <string name="title_main">我的账单</string>
+    <string name="Check_main">新增收支</string>
+    <string name="detailCheck_main">收支详情</string>
+    <string name="checkStatus_main">收支报表</string>
+
+    <string name="fastCheck_main">快速对账</string>
+    <string name="manager_main">账单管理</string>
+
+    <string name="dayCheck_main">日收支明细</string>
+    <string name="weekCheck_main">周收支明细</string>
+    <string name="mouthCheck_main">月收支明细</string>
+    <string name="yearCheck_main">年收支明细</string>
+
+    <!--新增收入页-->
+    <string name="type_inCheck">收入类型:</string>
+    <string name="count_inCheck">收入金额:</string>
+    <string name="time_inCheck">收入时间:</string>
+    <string name="detail_inCheck">收入描述:</string>
+    <string name="submit_inCheck">添加收入</string>
+    <string name="cancel_inCheck">取消</string>
+
+    <!--新增支出页-->
+    <string name="type_outCheck">支出类型:</string>
+    <string name="subType_outCheck">支出子类型:</string>
+    <string name="count_outCheck">支出金额:</string>
+    <string name="time_outCheck">支出时间:</string>
+    <string name="detail_outCheck">支出描述:</string>
+
+    <string name="submit_outCheck">添加支出</string>
+    <string name="cancel_outCheck">取消</string>
+
+    <string name="btn_addSubType">添加</string>
+
+</resources>
