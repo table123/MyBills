@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ff6600"
+        >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="收支类型："
+                    />
+            <Spinner
+                    android:id="@+id/spinner_drawType"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    />
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layOut_outCheck"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="收支类型："
+                />
+        <Spinner
+                android:id="@+id/spinner_drawOutCheck"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                />
+    </LinearLayout>
+
+    <com.witt.myview.ChartView
+            android:id="@+id/chartView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+</LinearLayout>

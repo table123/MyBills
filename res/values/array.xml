@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrType_inCheck">
+        <item>工资</item>
+        <item>外快</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="arrType_outCheck">
+        <item>吃</item>
+        <item>穿</item>
+        <item>住</item>
+        <item>行</item>
+        <item>用</item>
+    </string-array>
+
+    <string-array name="type1">
+        <item>日常</item>
+        <item>请客</item>
+        <item>烟酒</item>
+    </string-array>
+
+    <string-array name="type2">
+        <item>自用</item>
+        <item>礼物</item>
+    </string-array>
+
+    <string-array name="type3">
+        <item>房租</item>
+        <item>水电</item>
+    </string-array>
+
+    <string-array name="type4">
+        <item>公交车</item>
+        <item>出租车</item>
+    </string-array>
+
+    <string-array name="type5">
+        <item>学习用品</item>
+        <item>生活用品</item>
+    </string-array>
+
+    <string-array name="searchType">
+        <item>收入</item>
+        <item>支出</item>
+    </string-array>
+
+    <string-array name="outCheckType">
+        <item>查询本天</item>
+        <item>查询本月</item>
+        <item>查询本年</item>
+    </string-array>
+
+</resources>
